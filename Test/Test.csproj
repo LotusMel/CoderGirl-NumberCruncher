@@ -16,4 +16,8 @@
     <ProjectReference Include="..\NumberUtility\NumberUtility.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="NumberUtility\" />
+  </ItemGroup>
+
 </Project>

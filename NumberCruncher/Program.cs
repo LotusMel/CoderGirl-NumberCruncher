@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using NumberUtility;
 
 
 namespace NumberCruncher
@@ -9,11 +11,9 @@ namespace NumberCruncher
 
         public static void Main()
         {
-            int sum = 0;
-            NumberUtility numberUtility = new NumberUtility();
-
-            
-            Console.WriteLine(numberUtility.SumOfEvenNumbers(sum));
+           
+            List<int> myNumbers = new List<int> { 2, 5, 6, 9, 12, 13, 15, 16 };
+            Console.WriteLine(NumberUtility.NumberCruncher.SumOfEvenNumbers(myNumbers));
             Console.ReadLine();
         }
 
